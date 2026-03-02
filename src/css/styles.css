@@ -8,11 +8,27 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+body{
+  box-sizing: border-box;
+}
+.form{
+  margin: 20px auto;
+}
+.form input{
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+  width: 272px;
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+}
+
+button{
+  width: 91px;
+  height: 40px;
+  background-color: rgba(78, 117, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
