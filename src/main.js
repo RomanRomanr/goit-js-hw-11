@@ -21,7 +21,7 @@ form.addEventListener("submit", (e) => {
     getImagesByQuery(query)
         .then((data) => {
             if (data.hits.length === 0) {
-                iziToast.info({
+                iziToast.error({
                     title: 'No result',
                     message:
                         'Sorry, there are no images matching your search query. Please try again!',
